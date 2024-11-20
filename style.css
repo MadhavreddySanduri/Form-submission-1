@@ -1,0 +1,53 @@
+body {
+    background-color: #151d25;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+h2 {
+    color: #007bff;
+}
+
+table {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    text-align: center;
+}
+
+.table-responsive {
+    overflow-x: auto;  /* This makes the table scrollable on small screens */
+}
+
+/* Custom styling for smaller screens */
+@media (max-width: 767px) {
+    .form-label {
+        font-size: 0.9rem;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+
+    .table th, .table td {
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    .table {
+        font-size: 0.9rem;
+    }
+}
